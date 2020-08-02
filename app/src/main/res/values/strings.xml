@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Rozmana</string>
+    <string name="go_to_calendar">Go To Calendar</string>
+    <string name="date">Date</string>
 </resources>
