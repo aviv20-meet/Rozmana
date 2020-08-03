@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "221183354107",
+    "firebase_url": "https://roznama-a7585.firebaseio.com",
+    "project_id": "roznama-a7585",
+    "storage_bucket": "roznama-a7585.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221183354107:android:05efd7bc76573e9274fc5e",
+        "android_client_info": {
+          "package_name": "com.example.roznama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221183354107-1tk4k2l9emq7vgdg9ehg32k2s9l26em9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG4h_c5acBn59n65mUzOEo7PcUqNC8UXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221183354107-1tk4k2l9emq7vgdg9ehg32k2s9l26em9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
