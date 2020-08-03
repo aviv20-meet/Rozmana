@@ -16,7 +16,8 @@
         android:textSize="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="61dp" />
+        tools:layout_editor_absoluteY="61dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
@@ -37,7 +38,8 @@
         android:hint="Last Name"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="292dp" />
+        tools:layout_editor_absoluteY="292dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
@@ -78,7 +80,8 @@
         android:background="#57A773"
         android:text="sign up"
         tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="597dp" />
+        tools:layout_editor_absoluteY="597dp"
+        tools:ignore="MissingConstraints" />
 
     <!--    <com.google.android.gms.common.SignInButton-->
 <!--        android:id="@+id/sign_in_button"-->
