@@ -4,16 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background=""
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="187dp"
         android:layout_height="96dp"
-        android:text="Sign Up"
+        android:text="@string/sign_up"
         android:textColor="#0D1F30"
-        android:textSize="50dp"
+        android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="61dp"
@@ -24,39 +23,41 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="First Name"
+        android:hint="@string/first_name"
         android:inputType="textPersonName"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="102dp"
-        tools:layout_editor_absoluteY="224dp" />
+        tools:layout_editor_absoluteY="224dp"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Last Name"
+        android:hint="@string/last_name"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="100dp"
         tools:layout_editor_absoluteY="292dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        android:autofillHints="" />
 
-    <EditText
-        android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Example@mail.com"
-        android:inputType="textEmailAddress"
-        tools:layout_editor_absoluteX="102dp"
-        tools:layout_editor_absoluteY="363dp" />
+<!--   <EditText-->
+<!--        android:id="@+id/editTextTextEmailAddress"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:hint="Example@mail.com"-->
+<!--        android:inputType="textEmailAddress"-->
+<!--        tools:layout_editor_absoluteX="102dp"-->
+<!--        tools:layout_editor_absoluteY="363dp" />-->
 
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Password"
+        android:hint="@string/password"
         android:inputType="textPassword"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="100dp"
@@ -67,7 +68,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Verify Password"
+        android:hint="@string/verify_password"
         android:inputType="textPassword"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="100dp"
@@ -78,7 +79,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#57A773"
-        android:text="sign up"
+        android:text="@string/sign_up"
         tools:layout_editor_absoluteX="161dp"
         tools:layout_editor_absoluteY="597dp"
         tools:ignore="MissingConstraints" />

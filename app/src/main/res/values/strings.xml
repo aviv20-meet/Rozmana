@@ -2,4 +2,9 @@
     <string name="app_name">Rozmana</string>
     <string name="go_to_calendar">Go To Calendar</string>
     <string name="date">Date</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="verify_password">Verify Password</string>
+    <string name="password">Password</string>
 </resources>
